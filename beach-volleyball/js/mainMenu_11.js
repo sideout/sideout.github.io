@@ -32,6 +32,7 @@ function renderTopMenu(level) {
   <div class="row flex-wrap justify-content-center justify-content-lg-between align-items-lg-center">\
     <div class="col-12 col-lg-4 d-flex flex-wrap justify-content-center justify-content-lg-start align-items-center">\
       <div class="main-btn">\
+        <a href="' + level + 'index.html"><img style="vertical-align: middle;" src="images/icons8-home-page-24.png"></a>\
         <a href="' + level + 'beach-volleyball/index.html">BEACH VB</a>\
         <a href="' + level + 'volleyball/index.html">VOLLEYBALL</a>\
         <a href="' + level + 'services/index.html">SERVICES</a>\
@@ -49,6 +50,7 @@ function renderMenu(page, level) {
     console.log("mobile_view:ON");
   }
 
+  var home = '<li><a href="' + level + 'index.html">Home</a></li>';
   var training = '<li><a href="' + level + 'training-leyton.html">Training</a></li>';
   var play = '<li><a href="' + level + 'play.html">Play</a></li>';
   var tournaments = '<li><a href="' + level + 'tournaments.html">Tournaments</a></li>';
@@ -58,6 +60,9 @@ function renderMenu(page, level) {
   var shop = '<li><a href="' + level + 'shop.html">Online Store</a></li>';
 
   switch (page) {
+    case "index":
+      home = '<li class="current-menu-item"><a href="' + level + 'index.html.html">Home</a></li>';
+      break;
     case "training":
       training = '<li class="current-menu-item"><a href="' + level + 'training-leyton.html">Training</a></li>';
       break;
@@ -85,7 +90,7 @@ function renderMenu(page, level) {
 
   renderTopMenu('../' + level);
 
-  var links = training + play + tournaments + juniors + bookCourt + calendar + shop;
+  var links = home + training + play + tournaments + juniors + bookCourt + calendar + shop;
   var menu = document.getElementById('mainMenu');
   menu.innerHTML = partOne(level) + links + PART2;
 

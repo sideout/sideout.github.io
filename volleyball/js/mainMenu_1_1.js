@@ -4,7 +4,7 @@ function partOne(level) {
   <div class="row">\
       <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">\
           <div class="site-branding d-flex align-items-center">\
-              <a class="d-block" href="' + level + 'index.html" rel="home"><img class="d-block" src="' + level + 'images/logo150.png"\
+              <a class="d-block" href="' + level + 'index.html" rel="home"><img class="d-block" src="' + level + 'images/TEAM SIDEOUT-115-79.png"\
                       alt="logo"></a>\
           </div><!-- .site-branding -->\
           <nav class="site-navigation d-flex justify-content-end align-items-center">\
@@ -32,6 +32,7 @@ function renderTopMenu(level) {
   <div class="row flex-wrap justify-content-center justify-content-lg-between align-items-lg-center">\
     <div class="col-12 col-lg-4 d-flex flex-wrap justify-content-center justify-content-lg-start align-items-center">\
       <div class="main-btn">\
+        <a href="' + level + 'index.html"><img style="vertical-align: middle;" src="images/icons8-home-page-24.png"></a>\
         <a href="' + level + 'beach-volleyball/index.html">BEACH VB</a>\
         <a href="' + level + 'volleyball/index.html">VOLLEYBALL</a>\
         <a href="' + level + 'services/index.html">SERVICES</a>\

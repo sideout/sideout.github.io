@@ -4,7 +4,7 @@ function partOne(level) {
   <div class="row">\
       <div class="col-12 d-flex flex-wrap justify-content-between align-items-center">\
           <div class="site-branding d-flex align-items-center">\
-              <a class="d-block" href="' + level + 'index.html" rel="home"><img class="d-block" src="' + level + 'images/logo150.png"\
+              <a class="d-block" href="' + level + 'index.html" rel="home"><img class="d-block" src="' + level + 'images/SideOut_logo1-156-79.jpg"\
                       alt="logo"></a>\
           </div><!-- .site-branding -->\
           <nav class="site-navigation d-flex justify-content-end align-items-center">\
@@ -32,6 +32,7 @@ function renderTopMenu(level) {
   <div class="row flex-wrap justify-content-center justify-content-lg-between align-items-lg-center">\
     <div class="col-12 col-lg-4 d-flex flex-wrap justify-content-center justify-content-lg-start align-items-center">\
       <div class="main-btn">\
+        <a href="' + level + 'index.html"><img style="vertical-align: middle;" src="images/icons8-home-page-24.png"></a>\
         <a href="' + level + 'beach-volleyball/index.html">BEACH VB</a>\
         <a href="' + level + 'volleyball/index.html">VOLLEYBALL</a>\
         <a href="' + level + 'services/index.html">SERVICES</a>\
@@ -51,43 +52,14 @@ function renderMenu(page, level) {
     console.log("mobile_view:ON");
   }
 
-  var training = '<li><a href="' + level + 'training-leyton.html">Training</a></li>';
-  var play = '<li><a href="' + level + 'play.html">Play</a></li>';
-  var tournaments = '<li><a href="' + level + 'tournaments.html">Tournaments</a></li>';
-  var juniors = '<li><a href="' + level + 'juniors.html">Juniors</a></li>';
-  var bookCourt = '<li><a href="' + level + 'book-a-court-worthing.html">Book a court</a></li>';
-  var calendar = '<li><a href="' + level + 'calendar-leyton.html">Events Calendar</a></li>';
-  var shop = '<li><a href="' + level + 'shop.html">Online Store</a></li>';
-
-  switch (page) {
-    case "training":
-      training = '<li class="current-menu-item"><a href="' + level + 'training-leyton.html">Training</a></li>';
-      break;
-    case "play":
-      play = '<li class="current-menu-item"><a href="' + level + 'play.html">Play</a></li>';
-      break;
-    case "tournaments":
-      tournaments = '<li class="current-menu-item"><a href="' + level + 'tournaments.html">Tournaments</a></li>';
-      break;
-    case "juniors":
-      juniors = '<li class="current-menu-item"><a href="' + level + 'juniors.html">Juniors</a></li>';
-      break;
-    case "bookCourt":
-      bookCourt = '<li class="current-menu-item"><a href="' + level + 'book-a-court-worthing.html">Book a court</a></li>';
-      break;
-    case "calendar":
-      calendar = '<li class="current-menu-item"><a href="' + level + 'calendar-leyton.html">Events Calendar</a></li>';
-      break;
-    case "shop":
-      shop = '<li class="current-menu-item"><a href="' + level + 'shop.html">Online Store</a></li>';
-      break;
-    default:
-
-  }
+  var home = '<li class="current-menu-item"><a href="' + level + 'index.html">Home</a></li>';
+  var beach = '<li><a href="' + level + 'beach-volleyball/index.html">Beach Volleyball</a></li>';
+  var indoor = '<li><a href="' + level + 'volleyball/index.html">Volleyball</a></li>';
+  var services = '<li><a href="' + level + 'services/index.html">Services</a></li>';
 
   renderTopMenu('');
-  var links = training + play + tournaments + juniors + bookCourt + calendar + shop;
-  //var menu = document.getElementById('mainMenu');
-  //menu.innerHTML = partOne(level) + links + PART2;
+  var links = beach + indoor + services ;
+  var menu = document.getElementById('mainMenu');
+  menu.innerHTML = partOne(level) + links + PART2;
 
 }
