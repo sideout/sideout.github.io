@@ -52,7 +52,7 @@ const RIGHTS =
   '<div class="container">\
   <div class="row">\
     <div class="col-12">\
-        <p class="m-0">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved  |  SideOut Beach Volleyball Club Ltd  |  Template by <a href="https://colorlib.com" target="_blank">Colorlib</a>\
+        <p class="m-0">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved  |  SideOut Beach Volleyball Club Ltd  |  Template by <a href="https://colorlib.com" target="_blank">Colorlib</a> | <a target="_blank" href="https://icons8.com/icon/53382/home-page">Home Page</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></p>\
     </div>\
   </div>\
 </div>'
