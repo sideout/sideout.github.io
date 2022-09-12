@@ -666,6 +666,7 @@ var september_events_leyton = [
 	getOpenPlayxxxxx("09/16/2022"),
 
 	{ date: new Date("09/17/2022"), name: "One more beach tourney", type: TYPE_TOURNAMENT, info: "", url: "tournaments/one-more-beach-tourney.html" }, 
+	getAllYouCanPlay("09/17/2022"),
 	getJuniorAYCPxxx("09/18/2022"),
 	getAllYouCanPlay("09/18/2022"),
 
