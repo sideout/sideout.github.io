@@ -51,7 +51,7 @@ function renderMenu(page, level) {
     console.log("mobile_view:ON");
   }
 
-  var home = '<li><a href="' + level + 'index.html">Home</a></li>';
+  var home = '<li><a href="' + level + 'index.html">Services Home</a></li>';
   var bespokeEvents = '<li><a href="' + level + 'bespoke-events.html">Bespoke Events</a></li>';
   var coachEducation = '<li><a href="' + level + 'coach-education.html">Coach Education</a></li>';
   var coaching = '<li><a href="' + level + 'coaching.html">Coaching</a></li>';
@@ -59,7 +59,7 @@ function renderMenu(page, level) {
 
   switch (page) {
     case "index":
-      home = '<li class="current-menu-item"><a href="' + level + 'index.html">Home</a></li>';
+      home = '<li class="current-menu-item"><a href="' + level + 'index.html">Services Home</a></li>';
       break;
     case "bespoke-events":
       bespokeEvents = '<li class="current-menu-item"><a href="' + level + 'bespoke-events.html">Bespoke Events</a></li>';
