@@ -34,7 +34,7 @@ function renderTopMenu(level) {
       <div class="main-btn">\
         <a href="' + level + 'index.html"><img style="vertical-align: middle;" src="'+level+'images/icons8-home-page-24.png"></a>\
         <a href="' + level + 'beach-volleyball/index.html">BEACH VB</a>\
-        <a href="' + level + 'volleyball/index.html">VOLLEYBALL</a>\
+        <a style="text-decoration: underline;" href="' + level + 'volleyball/index.html">VOLLEYBALL</a>\
         <a href="' + level + 'services/index.html">SERVICES</a>\
       </div>\
     </div>\
