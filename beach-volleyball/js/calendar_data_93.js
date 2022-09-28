@@ -1081,11 +1081,105 @@ var september_events_worthing = [
 	getHireWorthingC("09/30/2022")
 ];
 
-var october_events_worthing = [];
+var october_events_worthing = [
+	getHireWorthingC("10/01/2022"),
+	getHireWorthingC("10/02/2022"),
+	getHireWorthingC("10/03/2022"),
+	getHireWorthingC("10/04/2022"),
+	getHireWorthingC("10/05/2022"),
+	getHireWorthingC("10/06/2022"),
+	getHireWorthingC("10/07/2022"),
+	getHireWorthingC("10/08/2022"),
+	getHireWorthingC("10/09/2022"),
+	getHireWorthingC("10/10/2022"),
+	getHireWorthingC("10/11/2022"),
+	getHireWorthingC("10/12/2022"),
+	getHireWorthingC("10/13/2022"),
+	getHireWorthingC("10/14/2022"),
+	getHireWorthingC("10/15/2022"),
+	getHireWorthingC("10/16/2022"),
+	getHireWorthingC("10/17/2022"),
+	getHireWorthingC("10/18/2022"),
+	getHireWorthingC("10/19/2022"),
+	getHireWorthingC("10/20/2022"),
+	getHireWorthingC("10/21/2022"),
+	{ date: new Date("10/22/2022"), name: NAME_MIX_N_MATCH, type: TYPE_TOURNAMENT, info: INFO_MIXED, url: URL_MIX_N_MATCH },
+	getHireWorthingC("10/23/2022"),
+	getHireWorthingC("10/24/2022"),
+	getHireWorthingC("10/25/2022"),
+	getHireWorthingC("10/26/2022"),
+	getHireWorthingC("10/27/2022"),
+	getHireWorthingC("10/28/2022"),
+	getHireWorthingC("10/29/2022"),
+	getHireWorthingC("10/30/2022"),
+	getHireWorthingC("10/31/2022")
+];
 
-var november_events_worthing = [];
+var november_events_worthing = [
+	getHireWorthingC("11/01/2022"),
+	getHireWorthingC("11/02/2022"),
+	getHireWorthingC("11/03/2022"),
+	getHireWorthingC("11/04/2022"),
+	getHireWorthingC("11/05/2022"),
+	getHireWorthingC("11/06/2022"),
+	getHireWorthingC("11/07/2022"),
+	getHireWorthingC("11/08/2022"),
+	getHireWorthingC("11/09/2022"),
+	getHireWorthingC("11/10/2022"),
+	getHireWorthingC("11/11/2022"),
+	getHireWorthingC("11/12/2022"),
+	getHireWorthingC("11/13/2022"),
+	getHireWorthingC("11/14/2022"),
+	getHireWorthingC("11/15/2022"),
+	getHireWorthingC("11/16/2022"),
+	getHireWorthingC("11/17/2022"),
+	getHireWorthingC("11/18/2022"),
+	{ date: new Date("11/19/2022"), name: NAME_MIX_N_MATCH, type: TYPE_TOURNAMENT, info: INFO_MIXED, url: URL_MIX_N_MATCH },
+	getHireWorthingC("11/20/2022"),
+	getHireWorthingC("11/21/2022"),
+	getHireWorthingC("11/22/2022"),
+	getHireWorthingC("11/23/2022"),
+	getHireWorthingC("11/24/2022"),
+	getHireWorthingC("11/25/2022"),
+	getHireWorthingC("11/26/2022"),
+	getHireWorthingC("11/27/2022"),
+	getHireWorthingC("11/28/2022"),
+	getHireWorthingC("11/29/2022"),
+	getHireWorthingC("11/30/2022")
+];
 
-var december_events_worthing = [];
+var december_events_worthing = [
+	getHireWorthingC("12/01/2022"),
+	getHireWorthingC("12/02/2022"),
+	getHireWorthingC("12/03/2022"),
+	getHireWorthingC("12/04/2022"),
+	getHireWorthingC("12/05/2022"),
+	getHireWorthingC("12/06/2022"),
+	getHireWorthingC("12/07/2022"),
+	getHireWorthingC("12/08/2022"),
+	getHireWorthingC("12/09/2022"),
+	getHireWorthingC("12/10/2022"),
+	getHireWorthingC("12/11/2022"),
+	getHireWorthingC("12/12/2022"),
+	getHireWorthingC("12/13/2022"),
+	getHireWorthingC("12/14/2022"),
+	getHireWorthingC("12/15/2022"),
+	getHireWorthingC("12/16/2022"),
+	{ date: new Date("12/17/2022"), name: NAME_MIX_N_MATCH, type: TYPE_TOURNAMENT, info: INFO_MIXED, url: URL_MIX_N_MATCH },
+	getHireWorthingC("12/18/2022"),
+	getHireWorthingC("12/19/2022"),
+	getHireWorthingC("12/20/2022"),
+	getHireWorthingC("12/21/2022"),
+	getHireWorthingC("12/22/2022"),
+	getHireWorthingC("12/23/2022"),
+	getHireWorthingC("12/24/2022"),
+	getHireWorthingC("12/25/2022"),
+	getHireWorthingC("12/26/2022"),
+	getHireWorthingC("12/27/2022"),
+	getHireWorthingC("12/28/2022"),
+	getHireWorthingC("12/29/2022"),
+	getHireWorthingC("12/30/2022")
+];
 
 var INDEX_NEXT_EVENTS_HEADER = '<div><h3 style="font-size: 1.25rem;">BEACH</h3></div>';
 
