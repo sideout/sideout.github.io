@@ -11,13 +11,37 @@ function columnDDescriptionAndSocial(level) {
 }
 
 function columnLinks(level) {
+
+  let viewParam = "";
+
+  var fullpath = window.location;
+  let urlString1 = fullpath + "";
+
+  var rootLevel = "";
+if(urlString1.includes("/beach-volleyball/") || urlString1.includes("/volleyball/") || urlString1.includes("/services/")) {
+  console.log("Section: BV");
+  rootLevel = "../"
+}
+
+// if(urlString1.includes("/volleyball/")) {
+//   console.log("Section: V");
+//   rootLevel = "../"
+// }
+
+// if(urlString1.includes("/services/")) {
+//   console.log("Section: S");
+//   rootLevel = "../"
+// }
+
+
+
+
+  //<li><a href="' + level + 'meet-the-team.html">Meet the Team</a></li>\
   return '<div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">\
     <h2>About Us</h2>\
     <ul>\
-      <li><a href="' + level + 'meet-the-team.html">Meet the Team</a></li>\
-      <li><a href="club-history.html">Club History</a></li>\
-      <li><a href="https://sideout.co.uk">Sideout ltd</a></li>\
-      <li><a href="privacy-policy.html">Privacy Policy</a></li>\
+      <li><a href="'+rootLevel+level+'club-history.html">Club History</a></li>\
+      <li><a href="'+rootLevel+level+'privacy-policy.html">Privacy Policy</a></li>\
     </ul>\
   </div>';
 }
@@ -27,10 +51,11 @@ function columnUpdates(level) {
     <div class="foot-latest-news">\
       <h2>Social Media</h2>\
         <ul>\
-        <li style="margin-bottom: 10px;"><a href="https://www.facebook.com/SideOutUK" target="_blank"><i class="fa fa-facebook"></i>acebook</a></li>\
-        <li style="margin-bottom: 10px;"><a href="https://www.instagram.com/sideout_uk/" target="_blank"><i class="fa fa-instagram"></i> instagram</a></li>\
-        <li style="margin-bottom: 10px;"><a href="https://www.youtube.com/user/SideOutUK" target="_blank"><i class="fa fa-youtube"></i> youtube</a></li>\
-        <li style="margin-bottom: 10px;"><a href="https://twitter.com/SideOut_UK" target="_blank"><i class="fa fa-twitter"></i> twitter</a></li>\
+        <li style="margin-bottom: 10px;"><a href="https://www.facebook.com/SideOutUK" target="_blank"><i class="fab fa-facebook"></i>acebook</a></li>\
+        <li style="margin-bottom: 10px;"><a href="https://www.instagram.com/sideout_uk/" target="_blank"><i class="fab fa-instagram"></i> instagram</a></li>\
+        <li style="margin-bottom: 10px;"><a href="https://www.youtube.com/user/SideOutUK" target="_blank"><i class="fab fa-youtube"></i> youtube</a></li>\
+        <li style="margin-bottom: 10px;"><a href="https://twitter.com/SideOut_UK" target="_blank"><i class="fab fa-twitter"></i> twitter</a></li>\
+        <li style="margin-bottom: 10px;"><a href="https://www.tiktok.com/@sideoutuk" target="_blank"><i class="fab fa-tiktok"></i> tiktok</a></li>\
       </ul>\
     </div>\
   </div>';
