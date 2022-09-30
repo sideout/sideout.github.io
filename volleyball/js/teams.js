@@ -1,40 +1,40 @@
 var thisPlayerList = [];
 
 var players_xulu = [
-	{ number: 1, name:"Kammas Manos", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Outside" },
-    { number: 2, name:"Moysis Ezer", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Middle" },
-    { number: 3, name:"Haasz Matt", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Middle" },
-    { number: 4, name:"Rendon Aldo", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Libero" },
-    { number: 5, name:"Morales Javier", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Libero" },
-    { number: 6, name:"Kogkas Alexandros", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Opposite" },
-    { number: 7, name:"Lipscombe Gerrard", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Outside" },
-    { number: 8, name:"Dragotis John", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Middle" },
-    { number: 9, name:"Petrou Lambros", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Setter" },
-    { number: 10, name:"Zardo Eduardo", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Setter" },
-    { number: 11, name:"Antonaci Luigi", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Libero" },
-    { number: 12, name:"Piubelli Manuel", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Outside" },
-    { number: 13, name:"Baisch Bruno", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Outside" },
-    { number: 14, name:"Tang-Taye Pierre", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Outside" },
-    { number: 15, name:"Theocharopoulos John", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Setter" },
-    { number: 16, name:"Gibin Federico", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Middle" },
-    { number: 17, name:"Andronis Antonis", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Outside" },
-    { number: 18, name:"Vondas Chris", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Middle" }
+	// { number: 1, name:"Kammas Manos", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Outside" },
+    // { number: 2, name:"Moysis Ezer", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Middle" },
+    // { number: 3, name:"Haasz Matt", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Middle" },
+    // { number: 4, name:"Rendon Aldo", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Libero" },
+    // { number: 5, name:"Morales Javier", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Libero" },
+    // { number: 6, name:"Kogkas Alexandros", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Opposite" },
+    // { number: 7, name:"Lipscombe Gerrard", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Outside" },
+    // { number: 8, name:"Dragotis John", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Middle" },
+    // { number: 9, name:"Petrou Lambros", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Setter" },
+    // { number: 10, name:"Zardo Eduardo", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Setter" },
+    // { number: 11, name:"Antonaci Luigi", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Libero" },
+    // { number: 12, name:"Piubelli Manuel", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Outside" },
+    // { number: 13, name:"Baisch Bruno", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Outside" },
+    // { number: 14, name:"Tang-Taye Pierre", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Outside" },
+    // { number: 15, name:"Theocharopoulos John", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Setter" },
+    // { number: 16, name:"Gibin Federico", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Middle" },
+    // { number: 17, name:"Andronis Antonis", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Outside" },
+    // { number: 18, name:"Vondas Chris", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Middle" }
 	
 ];
 
 var players_polonia = [
-	{ number: 1, name:"Julia", country: "Italy", dob:"14/06/1989", height:"1.88", position:"Outside" },
-    { number: 18, name:"Vondas Chris", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Middle" }
+	// { number: 1, name:"Julia", country: "Italy", dob:"14/06/1989", height:"1.88", position:"Outside" },
+    // { number: 18, name:"Vondas Chris", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Middle" }
 ];
 
 var players_women1 = [
-	{ number: 1, name:"Julia", country: "Italy", dob:"14/06/1989", height:"1.88", position:"Outside" },
-    { number: 18, name:"Vondas Chris", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Middle" }
+	// { number: 1, name:"Julia", country: "Italy", dob:"14/06/1989", height:"1.88", position:"Outside" },
+    // { number: 18, name:"Vondas Chris", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Middle" }
 ];
 
 var players_women2 = [
-	{ number: 1, name:"Julia", country: "Italy", dob:"14/06/1989", height:"1.88", position:"Outside" },
-    { number: 18, name:"Vondas Chris", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Middle" }
+	// { number: 1, name:"Julia", country: "Italy", dob:"14/06/1989", height:"1.88", position:"Outside" },
+    // { number: 18, name:"Vondas Chris", country: "Greece", dob:"14/06/1989", height:"1.88", position:"Middle" }
 ];
 
 function renderButtons() {
@@ -135,10 +135,14 @@ function renderMonthTable() {
 			" + tableEventContent + "</table>\
 			</div>\
 		</div>";
+        document.getElementById('player-table').innerHTML = tableContent;
 
+    } else {
+        var soon = "<p> Roster is coming soon..</p><br>"
+        document.getElementById('player-table').innerHTML = soon;
     }
     
-    document.getElementById('player-table').innerHTML = tableContent;
+    
 }
 
 
