@@ -1,6 +1,3 @@
-//TODO
-//daysOfTournament in calendar_index_functions_3 and index
-
 //STATUS
 var STATUS_CANCELLED = "cancelled";
 
