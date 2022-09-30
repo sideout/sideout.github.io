@@ -61,7 +61,7 @@ function renderMenu(page, level) {
 
   switch (page) {
     case "index":
-      home = '<li class="current-menu-item"><a href="' + level + 'index.html.html">Beach Home</a></li>';
+      home = '<li class="current-menu-item"><a href="' + level + 'index.html">Beach Home</a></li>';
       break;
     case "training":
       training = '<li class="current-menu-item"><a href="' + level + 'training-leyton.html">Training</a></li>';

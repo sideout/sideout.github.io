@@ -16,16 +16,29 @@ function indexRenderNextEvents(eventList, beach, htmlElementId, eventsCounter) {
     for (eventCalendarIndex = 0; eventCalendarIndex < eventList.length; eventCalendarIndex++) {
 
         var eventType = eventList[eventCalendarIndex].type;
+        var eventName = eventList[eventCalendarIndex].name;
 
-        if ((eventType == TYPE_PLAY
-            || eventType == TYPE_TOURNAMENT
-            || eventType == TYPE_JUNIORS)
-            && eventsCounter < 3) {
+        if (
+            (
+                eventType == TYPE_PLAY || 
+                eventType == TYPE_TOURNAMENT || 
+                eventType == TYPE_JUNIORS ||
+                (beach == WORTHING_BEACH && eventName === "Adult Drop-in Training")
+            )
+            && 
+            eventsCounter < 3
+           ) {
 
             var eventName = eventList[eventCalendarIndex].name;
             var eventDate = eventList[eventCalendarIndex].date;
             var eventUrl = eventList[eventCalendarIndex].url;
             var eventStatus = eventList[eventCalendarIndex].status;
+
+            //hide Available for booking for worthing.
+            if(beach == WORTHING_BEACH && eventName==="Available for booking") {
+                continue;
+            }
+
             var today = new Date();
 
             var thisDate = new Date(eventDate);
