@@ -685,7 +685,9 @@ var september_events_leyton = [
 	//{ date: new Date("09/12/2022"), name: "London Youth Games Beach volleyball tournament", type: TYPE_JUNIORS, info: "<a href=\"https://www.londonyouthgames.org/event/feel-good-too-beach-volleyball-f-m/\">Click to find out more</a>", url: "" },
 ];
 
-var october_events_leyton = [];
+var october_events_leyton = [
+	getAllYouCanPlay("10/8/2022")
+];
 
 var november_events_leyton = [];
 
