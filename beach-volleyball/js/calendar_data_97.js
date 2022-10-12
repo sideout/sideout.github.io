@@ -687,7 +687,7 @@ var september_events_leyton = [
 
 var october_events_leyton = [
 	getAllYouCanPlay("10/8/2022"),
-	getAllYouCanPlay("10/15/2022")
+	getAllYouCanPlay("10/16/2022")
 ];
 
 var november_events_leyton = [];
