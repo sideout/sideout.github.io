@@ -1104,7 +1104,7 @@ var october_events_worthing = [
 	getHireWorthingC("10/20/2022"),
 	getHireWorthingC("10/21/2022"),
 	{ date: new Date("10/22/2022"), name: NAME_MIX_N_MATCH, type: TYPE_TOURNAMENT, info: INFO_MIXED, url: URL_MIX_N_MATCH },
-	getWorthingAllYouCanPlay("10/23/2022"),
+	{ date: new Date("10/23/2022"), name: NAME_AYCP, type: TYPE_PLAY, info: "CANCELLED", url: URL_AYCP, status: "cancelled" },
 	getHireWorthingC("10/24/2022"),
 	getHireWorthingC("10/25/2022"),
 	getHireWorthingC("10/26/2022"),
