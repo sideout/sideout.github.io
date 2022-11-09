@@ -690,7 +690,9 @@ var october_events_leyton = [
 	getAllYouCanPlay("10/16/2022")
 ];
 
-var november_events_leyton = [];
+var november_events_leyton = [
+	{ date: new Date("11/13/2022"), name: NAME_AYCP, type: TYPE_PLAY, info: "10:30-17:00", url: URL_AYCP }
+];
 
 var december_events_leyton = [];
 
