@@ -1167,8 +1167,9 @@ var december_events_worthing = [
 	getHireWorthingC("12/14/2022"),
 	getHireWorthingC("12/15/2022"),
 	getHireWorthingC("12/16/2022"),
-	{ date: new Date("12/17/2022"), name: NAME_MIX_N_MATCH, type: TYPE_TOURNAMENT, info: INFO_MIXED, url: URL_MIX_N_MATCH },
-	getWorthingAllYouCanPlay("12/18/2022"),
+	//{ date: new Date("12/17/2022"), name: NAME_MIX_N_MATCH, type: TYPE_TOURNAMENT, info: INFO_MIXED, url: URL_MIX_N_MATCH },
+	getHireWorthingC("12/17/2022"),
+	{ date: new Date("12/18/2022"), name: "Christmas Tournament: Mix Side-it-Out", type: TYPE_TOURNAMENT, info: INFO_MIXED, url: "https://registration.sideout.co.uk/user/events/654" },
 	getHireWorthingC("12/19/2022"),
 	getHireWorthingC("12/20/2022"),
 	getHireWorthingC("12/21/2022"),
@@ -1256,6 +1257,9 @@ function getEventColor(eventName) {
 			break;
 		case NAME_CEV:
 			color = COLOR_CEV;
+			break;
+		case "Christmas Tournament: Mix Side-it-Out":
+			color = COLOR_SIDEOUT_RED;
 			break;
 		case NAME_SIDE_IT_OUT:
 			color = COLOR_SIDE_IT_OUT;
