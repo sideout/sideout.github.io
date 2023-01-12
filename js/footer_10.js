@@ -40,6 +40,7 @@ if(urlString1.includes("/beach-volleyball/") || urlString1.includes("/volleyball
   return '<div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">\
     <h2>About Us</h2>\
     <ul>\
+      <li><a href="'+rootLevel+level+'meet-the-team.html">Meet the team</a></li>\
       <li><a href="'+rootLevel+level+'club-history.html">Club History</a></li>\
       <li><a href="'+rootLevel+level+'privacy-policy.html">Privacy Policy</a></li>\
     </ul>\
