@@ -32,7 +32,7 @@ function renderTopMenu(level) {
   <div class="row flex-wrap justify-content-center justify-content-lg-between align-items-lg-center">\
     <div class="col-12 col-lg-4 d-flex flex-wrap justify-content-center justify-content-lg-start align-items-center">\
       <div class="main-btn">\
-        <a href="' + level + 'index.html"><img style="vertical-align: middle;" src="images/icons8-home-page-24.png"></a>\
+        <a href="' + level + 'index.html"><img style="vertical-align: middle;" src="' + level + 'images/icons8-home-page-24.png"></a>\
         <a href="' + level + 'beach-volleyball/index.html">BEACH VB</a>\
         <a href="' + level + 'volleyball/index.html">VOLLEYBALL</a>\
         <a href="' + level + 'services/index.html">SERVICES</a>\
@@ -57,7 +57,7 @@ function renderMenu(page, level) {
   var indoor = '<li><a href="' + level + 'volleyball/index.html">Volleyball</a></li>';
   var services = '<li><a href="' + level + 'services/index.html">Services</a></li>';
 
-  renderTopMenu('');
+  renderTopMenu(level);
   var links = beach + indoor + services ;
   var menu = document.getElementById('mainMenu');
   menu.innerHTML = partOne(level) + links + PART2;
