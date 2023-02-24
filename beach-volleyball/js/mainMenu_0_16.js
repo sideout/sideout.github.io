@@ -57,7 +57,7 @@ function renderMenu(page, level) {
   var juniors = '<li><a href="' + level + 'juniors.html">Juniors</a></li>';
   var bookCourt = '<li><a href="' + level + 'book-a-court-worthing.html">Book a court</a></li>';
   var calendar = '<li><a href="' + level + 'calendar-leyton.html">Events Calendar</a></li>';
-  var camps = '<li><a href="' + level + 'camps.html">Camps</a></li>';
+  var camps = '<li><a href="' + level + 'camps-and-clinics.html">Camps & Clinics</a></li>';
 
   switch (page) {
     case "index":
@@ -82,7 +82,7 @@ function renderMenu(page, level) {
       calendar = '<li class="current-menu-item"><a href="' + level + 'calendar-leyton.html">Events Calendar</a></li>';
       break;
     case "camps":
-      camps = '<li class="current-menu-item"><a href="' + level + 'camps.html">Camps</a></li>';
+      camps = '<li class="current-menu-item"><a href="' + level + 'camps-and-clinics.html">Camps & Clinics</a></li>';
       break;
     default:
 
@@ -90,7 +90,7 @@ function renderMenu(page, level) {
 
   renderTopMenu('../' + level);
 
-  var links = home + training + play + tournaments + juniors + bookCourt + calendar + camps;
+  var links = home + training + play + tournaments + juniors + camps + bookCourt + calendar;
   var menu = document.getElementById('mainMenu');
   menu.innerHTML = partOne(level) + links + PART2;
 
