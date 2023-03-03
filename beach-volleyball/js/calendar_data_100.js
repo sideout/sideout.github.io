@@ -50,11 +50,12 @@ var TYPE_TRAINING = "Training";
 var TYPE_JUNIORS = "Juniors";
 
 //EVENT LINKS
-var URL_WEDNESDAY_NIGHT_SOCAIL = "play/wednesday-night-social.html";
+var URL_WEDNESDAY_NIGHT_SOCAIL = "play/wednesday-night-social.html"; //tb removed
 var URL_SIDE_IT_OUT = "play/side-it-out.html";
 var URL_AYCP = "play/all-you-can-play.html";
 var URL_JUNIOR_AYCP = "juniors/junior-all-you-can-play.html";
-var URL_JUNIOR_GAME_TIME = "juniors/junior-game-time.html";
+var URL_JUNIOR_GAME_TIME = "juniors/junior-game-time.html"; //tb removed
+var URL_JUNIOR_OPEN_PLAY = "juniors/junior-game-time.html";
 var URL_MINI_SERIES = "play/side-it-out-mini-series.html";
 var URL_OPEN_PLAY = "play/open-play.html";
 var URL_FAMILY_OPEN_SESSIONS = "juniors/family-open-sessions.html"
@@ -71,7 +72,8 @@ var URL_SUMMER = "tournaments/summer-series.html";
 var URL_MIXED_SERIES = "tournaments/sideout-mixed-series.html";
 var URL_ALL_NATIONS = "tournaments/all-nations.html";
 var URL_CHALLENGER = "tournaments/challenger-series.html";
-var URL_GRAND_PRIX = "tournaments/grand-prix.html";
+var URL_GRAND_PRIX = "tournaments/grand-prix.html"; //tb removed
+var URL_GRAND_PRIX = "tournaments/london-open.html";
 var URL_POLONIA = "tournaments/poloniasOneMoreBeachTournie.html";
 var URL_UNDER_18 = "tournaments/junior-series.html"
 
