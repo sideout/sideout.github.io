@@ -157,12 +157,12 @@ if (page == 'junior-series.html') {
 if (page == 'grand-prix.html') {
 	var eventsDiv = document.getElementById('upcomingTournaments');
 	eventsDiv.innerHTML = renderFutureTournamentsBothVenues(NAME_GRAND_PRIX, "NOTHING_FOR_NOW", true);
-}
+} //tb removed
 
 if (page == 'london-grand-slam.html') {
 	var eventsDiv = document.getElementById('upcomingTournaments');
 	eventsDiv.innerHTML = renderFutureTournamentsBothVenues(NAME_GRAND_SLAM, "NOTHING_FOR_NOW", true);
-}
+} //tb removed
 
 if (page == 'starter-series.html') {
 	var eventsDiv = document.getElementById('upcomingTournaments');

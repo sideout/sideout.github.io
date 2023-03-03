@@ -52,7 +52,7 @@ function renderMenu(page, level) {
   }
 
   var home = '<li><a href="' + level + 'index.html">Services Home</a></li>';
-  var bespokeEvents = '<li><a href="' + level + 'bespoke-events.html">Bespoke Events</a></li>';
+  var bespokeEvents = '<li><a href="' + level + 'event-management.html">Event Management</a></li>';
   var coachEducation = '<li><a href="' + level + 'coach-education.html">Coach Education</a></li>';
   var coaching = '<li><a href="' + level + 'coaching.html">Coaching</a></li>';
   
@@ -61,8 +61,8 @@ function renderMenu(page, level) {
     case "index":
       home = '<li class="current-menu-item"><a href="' + level + 'index.html">Services Home</a></li>';
       break;
-    case "bespoke-events":
-      bespokeEvents = '<li class="current-menu-item"><a href="' + level + 'bespoke-events.html">Bespoke Events</a></li>';
+    case "event-management":
+      bespokeEvents = '<li class="current-menu-item"><a href="' + level + 'event-management.html">Event Management</a></li>';
       break;
     case "coach-education":
       coachEducation = '<li class="current-menu-item"><a href="' + level + 'coach-education.html">Coach Education</a></li>';
