@@ -23,19 +23,6 @@ if(urlString1.includes("/beach-volleyball/") || urlString1.includes("/volleyball
   rootLevel = "../"
 }
 
-// if(urlString1.includes("/volleyball/")) {
-//   console.log("Section: V");
-//   rootLevel = "../"
-// }
-
-// if(urlString1.includes("/services/")) {
-//   console.log("Section: S");
-//   rootLevel = "../"
-// }
-
-
-
-
   //<li><a href="' + level + 'meet-the-team.html">Meet the Team</a></li>\
   return '<div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">\
     <h2>About Us</h2>\
