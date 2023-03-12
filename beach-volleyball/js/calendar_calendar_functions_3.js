@@ -134,6 +134,7 @@ function filterButtons(filter) {
     var buttonPlay = "btn red-border";
     var buttonTraining = "btn red-border";
     var buttonJuniors = "btn red-border";
+    var buttonCamps = "btn red-border";
 
     switch (filter) {
         case TYPE_TOURNAMENT:
@@ -148,16 +149,20 @@ function filterButtons(filter) {
         case TYPE_JUNIORS:
             buttonJuniors = "btn gradient-bg";
             break;
+        case TYPE_CAMPS_AND_CLINICS:
+            buttonCamps = "btn gradient-bg";
+            break;
         default:
             buttonAll = "btn gradient-bg";
     }
 
     document.getElementById('filter-buttons').innerHTML = "\
-		<a onclick=\"eventController('display-all')\" href=\"#\" style='width: 160px' class=\" " + buttonAll + " \">All Events</a>\
-		<a onclick=\"eventController('Tournament')\" href=\"#\" style='width: 190px' class=\" " + buttonTournament + " \">Tournaments</a>\
-		<a onclick=\"eventController('Play')\" href=\"#\" style='width: 190px' class=\" " + buttonPlay + " \">Play</a>\
-		<a onclick=\"eventController('Training')\" href=\"#\" style='width: 190px' class=\" " + buttonTraining + " \">Training</a>\
-		<a onclick=\"eventController('Juniors')\" href=\"#\" style='width: 190px' class=\" " + buttonJuniors + " \">Juniors</a>";
+		<a onclick=\"eventController('display-all')\" href=\"#\" style='width: 160px;padding: 18px 40px;' class=\" " + buttonAll + " \">All Events</a>\
+		<a onclick=\"eventController('Tournament')\" href=\"#\" style='width: 150px;padding: 18px 0px;' class=\" " + buttonTournament + " \">Tournaments</a>\
+		<a onclick=\"eventController('Play')\" href=\"#\" style='width: 150px;padding: 18px 0px;' class=\" " + buttonPlay + " \">Play</a>\
+		<a onclick=\"eventController('Training')\" href=\"#\" style='width: 150px;padding: 18px 0px;' class=\" " + buttonTraining + " \">Training</a>\
+		<a onclick=\"eventController('Juniors')\" href=\"#\" style='width: 150px;padding: 18px 0px;' class=\" " + buttonJuniors + " \">Juniors</a>\
+        <a onclick=\"eventController('Camps & Clinics')\" href=\"#\" style='width: 150px;padding: 18px 0px;' class=\" " + buttonCamps + " \">Camps & Clinics</a>";
 }
 
 function eventController(selectedEventTypeFilter) {
