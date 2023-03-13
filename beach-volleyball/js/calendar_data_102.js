@@ -278,7 +278,7 @@ var april_events_leyton = [
 	{ date: new Date("04/19/2023"), name: "Junior Open Play", type: TYPE_JUNIORS, info: "17:30-18:30", url: "juniors/junior-open-play.html" },
 	{ date: new Date("04/20/2023"), name: "Drills and play", type: TYPE_PLAY, info: "19:00-21:00", url: "" },
 	{ date: new Date("04/21/2023"), name: "Open Play", type: TYPE_PLAY, info: "17:30-22:00", url: URL_OPEN_PLAY },
-	{ date: new Date("05/22/2022"), name: "SideOut Summer Series UKBT", type: TYPE_TOURNAMENT, info: INFO_MEN_N_WOMEN + " 3*", url: URL_SUMMER },
+	{ date: new Date("04/22/2023"), name: "SideOut Summer Series UKBT", type: TYPE_TOURNAMENT, info: INFO_MEN_N_WOMEN + " 3*", url: URL_SUMMER },
 	getJuniorAYCPxxx("04/23/2023"),
 	getAllYouCanPlay("04/23/2023"),
 	getJuniorTrainin("04/24/2023"),
@@ -290,7 +290,7 @@ var april_events_leyton = [
 	getAdultTraining("04/27/2023"),
 	{ date: new Date("04/28/2023"), name: "Open Play", type: TYPE_PLAY, info: "17:30-22:00", url: URL_OPEN_PLAY },
 
-	{ date: new Date("06/29/2029"), name: NAME_MIXED_SERIES, type: TYPE_TOURNAMENT, info: INFO_MIXED, url: URL_MIXED_SERIES },
+	{ date: new Date("04/29/2023"), name: NAME_MIXED_SERIES, type: TYPE_TOURNAMENT, info: INFO_MIXED, url: URL_MIXED_SERIES },
 	{ date: new Date("04/29/2023"), name: NAME_JUNIOR_SERIES, type: TYPE_JUNIORS, info: "(non-UKBT)", url: "juniors/junior-series.html" },
 	getJuniorAYCPxxx("04/30/2023"),
 	getAllYouCanPlay("04/30/2023"),
