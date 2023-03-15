@@ -132,11 +132,6 @@ if (page == 'challenger-series.html') {
 	eventsDiv.innerHTML = renderFutureTournamentsBothVenues(NAME_CHALLENGER, "NOTHING_FOR_NOW", false);
 }
 
-if (page == 'spring-tourney.html') {
-	var eventsDiv = document.getElementById('upcomingTournaments');
-	eventsDiv.innerHTML = renderFutureTournamentsBothVenues(NAME_SPRING, "NOTHING_FOR_NOW", false);
-}
-
 if (page == 'all-nations.html') {
 	var eventsDiv = document.getElementById('upcomingTournaments');
 	eventsDiv.innerHTML = renderFutureTournamentsBothVenues(NAME_ALL_NATIONS, "NOTHING_FOR_NOW", true);
@@ -154,9 +149,13 @@ if (page == 'junior-series.html') {
 
 if (page == 'london-gp-cc.html') {
 	var eventsDiv = document.getElementById('upcomingTournaments');
-	eventsDiv.innerHTML = renderFutureTournamentsBothVenues(NAME_GRAND_PRIX, "NOTHING_FOR_NOW", true);
-} //tb kept - note new name!
+	eventsDiv.innerHTML = '<p style="font-weight:bold;">'+NAME_GRAND_PRIX+'</p>' + renderFutureTournamentsBothVenues(NAME_GRAND_PRIX, "NOTHING_FOR_NOW", true);
+}
 
+if (page == 'london-gp-cc.html') {
+	var eventsDiv = document.getElementById('upcomingTournaments1');
+	eventsDiv.innerHTML = '<span style="font-weight:bold;">SideOut London Challenger Cup</span>' + renderFutureTournamentsBothVenues('SideOut London Challenger Cup', "NOTHING_FOR_NOW", true);
+}
 
 if (page == 'london-open.html') {
 	var eventsDiv = document.getElementById('upcomingTournaments');
@@ -167,18 +166,9 @@ if (page == 'mixnmatch.html') {
 	var eventsDiv = document.getElementById('upcomingTournaments');
 	eventsDiv.innerHTML = renderFutureTournamentsBothVenues("Mix 'n' Match", "NOTHING_FOR_NOW", true);
 }
-//check if it works and comment
+
 if (page == 'summer-social.html') {
 	var eventsDiv = document.getElementById('upcomingTournaments');
 	eventsDiv.innerHTML = renderFutureTournamentsBothVenues("SideOut Summer Social", "NOTHING_FOR_NOW", true);
 }
 
-if (page == 'london-grand-slam.html') {
-	var eventsDiv = document.getElementById('upcomingTournaments');
-	eventsDiv.innerHTML = renderFutureTournamentsBothVenues(NAME_GRAND_SLAM, "NOTHING_FOR_NOW", true);
-} //tb removed
-
-if (page == 'starter-series.html') {
-	var eventsDiv = document.getElementById('upcomingTournaments');
-	eventsDiv.innerHTML = renderFutureTournamentsBothVenues(NAME_STARTER_SERIES, "NOTHING_FOR_NOW", true);
-}
