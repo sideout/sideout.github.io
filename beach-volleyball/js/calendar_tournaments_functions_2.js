@@ -46,12 +46,10 @@ function renderFutureTournamentDays(eventList, tournamentName, finalsTournamentN
 					printedDate = gsDayNames[dayOfWeekInt] + " " + dayInt + " " + months[monthInt] + " & " + gsDayNames[dayOfWeekIntPlusOne] + " " + dayIntPlusOne + " " + months[monthIntPlusOne] + " " + year;
 				}
 
-				// var infoHtml = '';
-				if (isPrintInfoEnabled) {
-					// infoHtml = " - " + eventInfo;
+				if (isPrintInfoEnabled && eventInfo) {
+
 					printedDate += " - " + eventInfo;
 				}
-
 
 				if (shouldTournamentBePrinted) {
 					var htmlEvent = '<li>' + printedDate + '</li>';
@@ -144,7 +142,7 @@ if (page == 'all-nations.html') {
 	eventsDiv.innerHTML = renderFutureTournamentsBothVenues(NAME_ALL_NATIONS, "NOTHING_FOR_NOW", true);
 }
 
-if (page == 'sideout-mixed-series.html') {
+if (page == 'mixed-series.html') {
 	var eventsDiv = document.getElementById('upcomingTournaments');
 	eventsDiv.innerHTML = renderFutureTournamentsBothVenues(NAME_MIXED_SERIES, "NOTHING_FOR_NOW", false);
 }
@@ -158,6 +156,22 @@ if (page == 'london-gp-cc.html') {
 	var eventsDiv = document.getElementById('upcomingTournaments');
 	eventsDiv.innerHTML = renderFutureTournamentsBothVenues(NAME_GRAND_PRIX, "NOTHING_FOR_NOW", true);
 } //tb kept - note new name!
+
+
+if (page == 'london-open.html') {
+	var eventsDiv = document.getElementById('upcomingTournaments');
+	eventsDiv.innerHTML = renderFutureTournamentsBothVenues('SideOut London Open', "NOTHING_FOR_NOW", true);
+}
+
+if (page == 'mixnmatch.html') {
+	var eventsDiv = document.getElementById('upcomingTournaments');
+	eventsDiv.innerHTML = renderFutureTournamentsBothVenues("Mix 'n' Match", "NOTHING_FOR_NOW", true);
+}
+//check if it works and comment
+if (page == 'summer-social.html') {
+	var eventsDiv = document.getElementById('upcomingTournaments');
+	eventsDiv.innerHTML = renderFutureTournamentsBothVenues("SideOut Summer Social", "NOTHING_FOR_NOW", true);
+}
 
 if (page == 'london-grand-slam.html') {
 	var eventsDiv = document.getElementById('upcomingTournaments');
