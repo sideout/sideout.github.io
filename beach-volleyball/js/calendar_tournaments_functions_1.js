@@ -154,10 +154,10 @@ if (page == 'junior-series.html') {
 	eventsDiv.innerHTML = renderFutureTournamentsBothVenues(NAME_JUNIOR_SERIES, "NOTHING_FOR_NOW", false);
 }
 
-if (page == 'grand-prix.html') {
+if (page == 'london-gp-cc.html') {
 	var eventsDiv = document.getElementById('upcomingTournaments');
 	eventsDiv.innerHTML = renderFutureTournamentsBothVenues(NAME_GRAND_PRIX, "NOTHING_FOR_NOW", true);
-} //tb removed
+} //tb kept - note new name!
 
 if (page == 'london-grand-slam.html') {
 	var eventsDiv = document.getElementById('upcomingTournaments');
