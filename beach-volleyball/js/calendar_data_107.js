@@ -574,7 +574,6 @@ var january_events_worthing = [];
 var february_events_worthing = [];
 
 var march_events_worthing = [
-	{ date: new Date("3/25/2023"), name: "Spring Cleaning & setup day", type: "Play", type1: "", info: "10:00-17:00, free play for volunteers", url: "" },
 	{ date: new Date("3/26/2023"), name: "AYCP", type: "Play", type1: "", info: "09:00-17:00", url: "play/all-you-can-play.html" },
 	{ date: new Date("3/27/2023"), name: "Available for booking", type: "Play", type1: "", info: "", url: "book-a-court-worthing.html" },
 	{ date: new Date("3/28/2023"), name: "Available for booking", type: "Play", type1: "", info: "", url: "book-a-court-worthing.html" },
@@ -591,14 +590,17 @@ var april_events_worthing = [
 	{ date: new Date("4/5/2023"), name: "Open Play ", type: "Play", type1: "", info: "18:00-22:00", url: "play/open-play.html" },
 	{ date: new Date("4/6/2023"), name: "Available for booking", type: "Play", type1: "", info: "", url: "book-a-court-worthing.html" },
 	{ date: new Date("4/7/2023"), name: "AYCP", type: "Play", type1: "", info: "Bank Holiday, 09:00-17:00", url: "play/all-you-can-play.html" },
-	{ date: new Date("4/8/2023"), name: "Mix 'n' Match", type: "Tournament", type1: "", info: "", url: "tournaments/mixnmatch.html" },
+	{ date: new Date("4/8/2023"), name: "Available for booking", type: "Play", type1: "", info: "", url: "book-a-court-worthing.html" },
 	{ date: new Date("4/9/2023"), name: "AYCP", type: "Play", type1: "", info: "09:00-17:00", url: "play/all-you-can-play.html" },
 	{ date: new Date("4/10/2023"), name: "AYCP", type: "Play", type1: "", info: "Bank Holiday, 09:00-17:00", url: "play/all-you-can-play.html" },
 	{ date: new Date("4/11/2023"), name: "Available for booking", type: "Play", type1: "", info: "", url: "book-a-court-worthing.html" },
 	{ date: new Date("4/12/2023"), name: "Open Play ", type: "Play", type1: "", info: "18:00-22:00", url: "play/open-play.html" },
 	{ date: new Date("4/13/2023"), name: "Available for booking", type: "Play", type1: "", info: "", url: "book-a-court-worthing.html" },
 	{ date: new Date("4/14/2023"), name: "Available for booking", type: "Play", type1: "", info: "", url: "book-a-court-worthing.html" },
-	{ date: new Date("4/15/2023"), name: "Available for booking", type: "Play", type1: "", info: "", url: "book-a-court-worthing.html" },
+	
+
+	{ date: new Date("4/15/2023"), name: "Mix 'n' Match", type: "Tournament", type1: "", info: "", url: "tournaments/mixnmatch.html" },
+
 	{ date: new Date("4/16/2023"), name: "AYCP", type: "Play", type1: "", info: "09:00-17:00", url: "play/all-you-can-play.html" },
 	{ date: new Date("4/17/2023"), name: "Juniors training", type: "Juniors", type1: "Training", info: "", url: "juniors/worthing-beach.html" },
 	{ date: new Date("4/17/2023"), name: "Beginners training", type: "Training", type1: "", info: "", url: "training-worthing.html#beginners" },
@@ -643,7 +645,7 @@ var may_events_worthing = [
 	{ date: new Date("5/17/2023"), name: "Open Play", type: "Play", type1: "", info: "18:00-22:00", url: "play/open-play.html" },
 	{ date: new Date("5/18/2023"), name: "Adult Training", type: "Training", type1: "", info: "", url: "training-worthing.html" },
 	{ date: new Date("5/19/2023"), name: "Available for booking", type: "Play", type1: "", info: "", url: "book-a-court-worthing.html" },
-	{ date: new Date("5/20/2023"), name: "SideOut Junior Series", type: "Juniors", type1: "Tournament", info: "U12, U15 & U18", url: "juniors/junior-series.html" },
+	{ date: new Date("5/20/2023"), name: "SideOut Junior Series", type: "Juniors", type1: "Tournament", info: "U18", url: "juniors/junior-series.html" },
 	{ date: new Date("5/21/2023"), name: "AYCP", type: "Play", type1: "", info: "09:00-17:00", url: "play/all-you-can-play.html" },
 	{ date: new Date("5/22/2023"), name: "Juniors training", type: "Juniors", type1: "Training", info: "", url: "juniors/worthing-beach.html" },
 	{ date: new Date("5/22/2023"), name: "Beginners training", type: "Training", type1: "", info: "", url: "training-worthing.html#beginners" },
@@ -679,7 +681,7 @@ var june_events_worthing = [
 	{ date: new Date("6/14/2023"), name: "Open Play", type: "Play", type1: "", info: "18:00-22:00", url: "play/open-play.html" },
 	{ date: new Date("6/15/2023"), name: "Adult Training", type: "Training", type1: "", info: "", url: "training-worthing.html" },
 	{ date: new Date("6/16/2023"), name: "Available for booking", type: "Play", type1: "", info: "", url: "book-a-court-worthing.html" },
-	{ date: new Date("6/17/2023"), name: "SideOut Junior Series", type: "Juniors", type1: "Tournament", info: "U12, U15 & U18", url: "juniors/junior-series.html" },
+	{ date: new Date("6/17/2023"), name: "SideOut Junior Series", type: "Juniors", type1: "Tournament", info: "U18", url: "juniors/junior-series.html" },
 	{ date: new Date("6/18/2023"), name: "AYCP", type: "Play", type1: "", info: "09:00-17:00", url: "play/all-you-can-play.html" },
 	{ date: new Date("6/19/2023"), name: "Juniors training", type: "Juniors", type1: "Training", info: "", url: "juniors/worthing-beach.html" },
 	{ date: new Date("6/19/2023"), name: "Beginners training", type: "Training", type1: "", info: "", url: "training-worthing.html#beginners" },
@@ -730,7 +732,7 @@ var july_events_worthing = [
 	{ date: new Date("7/26/2023"),name: "Open Play", type:"Play",type1: "",info : "18:00-22:00",url: "play/open-play.html"},
 	{ date: new Date("7/27/2023"),name: "Adult Training",type: "Training",type1: "",info : "",url: "training-worthing.html"},
 	{ date: new Date("7/28/2023"),name: "Available for booking",type: "Play",type1: "",info : "",url: "book-a-court-worthing.html"},
-	{ date: new Date("7/29/2023"),name: "SideOut Junior Series",type: "Juniors",type1: "Tournament",info : "U12, U15 & U18",url: "juniors/junior-series.html"},
+	{ date: new Date("7/29/2023"),name: "SideOut Junior Series",type: "Juniors",type1: "Tournament",info : "U18",url: "juniors/junior-series.html"},
 	{ date: new Date("7/30/2023"),name: "AYCP",type: "Play",type1: "",info : "09:00-17:00",url: "play/all-you-can-play.html"},
 	{ date: new Date("7/31/2023"),name: "Juniors training",type: "Juniors",type1: "Training",info : "",url: "juniors/worthing-beach.html"},
 	{ date: new Date("7/31/2023"),name: "Beginners training",type: "Training",type1: "",info : "",url: "training-worthing.html#beginners"}
@@ -765,7 +767,7 @@ var august_events_worthing = [
 	{ date: new Date("8/23/2023"),name: "Open Play",type: "Play",type1: "",info : "18:00-22:00",url: "play/open-play.html"},
 	{ date: new Date("8/24/2023"),name: "Adult Training",type: "Training",type1: "",info : "",url: "training-worthing.html"},
 	{ date: new Date("8/25/2023"),name: "Available for booking",type: "Play",type1: "",info : "",url: "book-a-court-worthing.html"},
-	{ date: new Date("8/26/2023"),name: "SideOut Junior Series",type: "Juniors",type1: "Tournament",info : "U12, U15 & U18",url: "juniors/junior-series.html"},
+	{ date: new Date("8/26/2023"),name: "SideOut Junior Series",type: "Juniors",type1: "Tournament",info : "U18",url: "juniors/junior-series.html"},
 	{ date: new Date("8/27/2023"),name: "AYCP",type: "Play",type1: "",info : "09:00-17:00",url: "play/all-you-can-play.html"},
 	{ date: new Date("8/28/2023"),name: "AYCP",type: "Play",type1: "",info : "Bank Holiday, 09:00-17:00",url: "play/all-you-can-play.html"},
 	{ date: new Date("8/28/2023"),name: "Juniors training",type: "Juniors",type1: "Training",info : "Bank Holiday, 18:30-20:15",url: "juniors/worthing-beach.html"},
