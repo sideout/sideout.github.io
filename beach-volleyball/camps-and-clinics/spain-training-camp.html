@@ -4,22 +4,43 @@
 <head>
 	<title>SideOut | Spain Training Camp</title>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-S9N9F2NGSB"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-S9N9F2NGSB"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
-  gtag('config', 'G-S9N9F2NGSB');
-</script>
+		gtag('config', 'G-S9N9F2NGSB');
+	</script>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+	<!-- SEO -->
 	<meta name="description" content="Training information for beach volleyball training camp in Playa de San Juan, Alicante, Spain">
+	<meta name="keywords" content="training,camp,Playa,Alicante,Spain,beach,volleyball,sideout,club,london">
+	<meta name="author" content="Sideout">
+	<meta name="owner" content="Sideout">
+	<meta name="copyright" content="2023 SideOut Beach Volleyball Club Ltd">
+	<meta name="robots" content="all">
+
+	<!-- OGP -->
+	<meta property="og:type" content="website">
+	<meta property="og:locale" content="en_GB">
+	<meta property="og:site_name" content="SideOut Beach Volleyball | Volleyball">
+
+	<meta property="og:title" content="Spain Training Camp" />
+	<meta property="og:description" content="Training information for beach volleyball training camp in Playa de San Juan, Alicante, Spain" />
+	<meta property="og:url" content="https://sideout.co.uk/beach-volleyball/camps-and-clinics/spain-training-camp.html" />
+	<!-- <meta property="og:image" content="https://ahrefs.com/blog/wp-content/uploads/2019/12/fb-how-to-become-an-seo-expert.png" /> -->
+	<!-- OGP end -->
+
+
 	<!-- <meta id="wixMobileViewport" name="viewport" content="minimum-scale=0.25, maximum-scale=1.2"/> -->
 	<link rel="icon" type="../image/jpg" href="../images/tab-logo.png" sizes="32x20" />
 	<link rel="stylesheet" href="../css/bootstrap.min.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css"></link>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+	</link>
 	<link rel="stylesheet" href="../css/elegant-fonts.css" />
 	<link rel="stylesheet" href="../css/themify-icons.css" />
 	<link rel="stylesheet" href="../css/swiper.min.css" />
@@ -27,28 +48,127 @@
 	<link rel="stylesheet" href="../css/util.css" />
 	<link rel="stylesheet" href="../css/main_1.css" />
 	<script type="text/javascript" src="../js/mainMenu_0_16.js"></script>
+
+	<!-- jbox -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.3.3/dist/jBox.all.min.js"></script>
+	<link href="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.3.3/dist/jBox.all.min.css" rel="stylesheet">
+
 	<style>
-		table {
-			border-collapse: collapse;
-			border-spacing: 0;
-			width: 100%;
-			border: 1px solid #ddd;
+		/* pinterest style*/
+		* {
+			box-sizing: border-box;
 		}
 
-		th,
-		td {
-			text-align: left;
-			padding: 8px;
-			border: 1px solid black;
-			vertical-align: inherit;
+		gallerybody {
+			margin: 0;
+			font-family: Arial;
+		}
+
+		.header {
 			text-align: center;
+			padding: 32px;
 		}
 
-		tr:nth-child(even) {
-			background-color: #f7d3d3;
+		.row {
+			display: -ms-flexbox;
+			/* IE10 */
+			display: flex;
+			-ms-flex-wrap: wrap;
+			/* IE10 */
+			flex-wrap: wrap;
+			padding: 0 4px;
 		}
+
+		/* Create four equal columns that sits next to each other */
+		.column {
+			-ms-flex: 50%;
+			/* IE10 */
+			flex: 50%;
+			max-width: 50%;
+			padding: 0 4px;
+		}
+
+		.column img {
+			margin-top: 8px;
+			vertical-align: middle;
+			width: 100%;
+		}
+
+		/* Responsive layout - makes a two column-layout instead of four columns */
+		@media screen and (max-width: 800px) {
+			.column {
+				-ms-flex: 50%;
+				flex: 50%;
+				max-width: 50%;
+			}
+		}
+
+		/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+		@media screen and (max-width: 600px) {
+			.column {
+				-ms-flex: 100%;
+				flex: 100%;
+				max-width: 100%;
+			}
+		}
+
+		/* pinterest style end*/
+
+		/* small gallery start */
+		div.gallery {
+			margin: 5px;
+			/* border: 1px solid #ccc; */
+			float: left;
+			width: 144px;
+		}
+
+		div.gallery:hover {
+			/* border: 1px solid #777; */
+		}
+
+		div.gallery img {
+			width: 100%;
+			height: auto;
+			border-radius: 25px;
+		}
+
+		div.desc {
+			/* padding: 15px; */
+			text-align: center;
+			font-weight: 500;
+		}
+
+		#small-gallery {
+			margin: 1.5em 0 3em 0;
+			width: 80%;
+			padding: 1px 0;
+		}
+
+		#small-gallery img {
+			border: 2px solid #434343;
+			margin: 0 10px 15px 0;
+		}
+
+		#small-gallery a:hover img {
+			border: 2px solid #FF9C31;
+		}
+
+		.photo-container {
+			position: relative;
+			text-align: center;
+			color: white;
+		}
+
+		.bottom-left {
+			position: absolute;
+			bottom: 8px;
+			left: 16px;
+		}
+
+		/* small gallery end */
 	</style>
-	
+
 </head>
 
 <body class="single-page elements-page">
@@ -68,7 +188,7 @@
 					<!-- <p class="font_8" style="text-align:justify;color:#fff;">
 						We welcome players of all ages and abilities.
 					</p> -->
-					
+
 				</div>
 			</div>
 		</div>
@@ -76,42 +196,92 @@
 
 	<br>
 
+	<!-- 
+		--PHOTO LAYOUT
+		you can adjust the width in the images, 
+		you can have more than one rows/columns, 
+		if row with 4 columns of 25% then is like pinterest and style width:100%,
+		in order to remove the gaps between the first and the other photos, they need to have the same height and then adjust the width,
+		if your add photos with different height you will need to adjust to see how they will be displayed in mobile and desktop view
+		
+		--VIEWER
+		title is used from the viewer, 
+		data-jbox-image is used from the viewer and groups the photos which you can navigate-->
+
+		<!-- UNCOMMENT FROM HERE-->
+	<!-- <div class="container">
+		<div class="gallerybody">
+			<div class="row">
+				<div class="column">
+					<h2 class="entry-title"><span style="font-weight:bold">City of San Juan</span></h2>
+					<p margin-top: 80px;>hi there athes is a really nice place asodapsid asidjaoidj sidjao saisd asidja
+						asd asd oaidj oasidj aosid asdis aisaisidaosidj asidjsd sdaisjdiajdoasjdoasdj sidjas ds asdi
+						joasi </p>
+				</div>
+
+				<div class="column">
+					<a href="../images/AYCP.png" class="image-trigger" title="My title 1" data-jbox-image="gallery1">
+						<img src="../images/AYCP.png" alt="Preview Photo 1" style="width:100%">
+					</a>
+					<a href="../images/AYCP.png" class="image-trigger" title="My title 1" data-jbox-image="gallery1">
+						<img src="../images/AYCP.png" style="width:33%">
+					</a>
+					<a href="../images/AYCP.png" class="image-trigger" title="My title 1" data-jbox-image="gallery1">
+						<img src="../images/AYCP.png" style="width:32%">
+					</a>
+
+					<a href="../images/AYCP.png" class="image-trigger" title="My title 1" data-jbox-image="gallery1">
+						<img src="../images/AYCP.png" style="width:32%">
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<br> -->
+	<!-- TO HERE-->
+
 	<div class="short-content-wrap">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					
+
 					<h2 class="entry-title"><span style="font-weight:bold">Playa de San Juan, 22nd-28th May 2023</span>
 					</h2>
-					
 
 					<p>
-						This spring, SideOut's famous beach volleyball training camps are back! We'll be heading to the beautiful
-						sands of <span style="font-weight:bold;">Playa de San Juan</span>, near <span style="font-weight:bold;">Alicante</span> 
-						in Spain, from the <span style="font-weight:bold;">22nd to the 28th of May 2023!</span> 
+						This spring, SideOut's famous beach volleyball training camps are back! We'll be heading to the
+						beautiful
+						sands of <span style="font-weight:bold;">Playa de San Juan</span>, near <span
+							style="font-weight:bold;">Alicante</span>
+						in Spain, from the <span style="font-weight:bold;">22nd to the 28th of May 2023!</span>
 					</p>
 
 					<p>
-						Suitable for all ages and abilities, this camp is not only a perfect opportunity to get top quality and high
-						intensity beach volleyball training, but it will also be a truly memorable week with amazing people on one of 
-						Spain's most beautiful beaches and one of Europe's greatest beach volleyball hotspots. 
-					</p>
-					
-					<p>
-						As if that all wasn't enough, the coaching staff includes an Olympic medallist and some incredibly experienced players and coaches, who will 
-						all be on hand throughout the camp to help take your game to the next level.  
-					</p>
-					<p>
-						Full details are below. To ensure quality and the best possible experience for you, spaces are strictly limited - so 
-						be sure to book early and avoid disappointment! We look forward to welcoming you to Playa de San Juan!
+						Suitable for all ages and abilities, this camp is not only a perfect opportunity to get top
+						quality and high
+						intensity beach volleyball training, but it will also be a truly memorable week with amazing
+						people on one of
+						Spain's most beautiful beaches and one of Europe's greatest beach volleyball hotspots.
 					</p>
 
-					<a href="https://registration.sideout.co.uk/" target="_blank" class="btn gradient-bg">Registration Opens Soon!
+					<p>
+						As if that all wasn't enough, the coaching staff includes an Olympic medallist and some
+						incredibly experienced players and coaches, who will
+						all be on hand throughout the camp to help take your game to the next level.
+					</p>
+					<p>
+						Full details are below. To ensure quality and the best possible experience for you, spaces are
+						strictly limited - so
+						be sure to book early and avoid disappointment! We look forward to welcoming you to Playa de San
+						Juan!
+					</p>
+
+					<a href="https://registration.sideout.co.uk/" target="_blank" class="btn gradient-bg">Registration
+						Opens Soon!
 					</a>
-					<p> 
-						 
-					</p>
-				
+					<p></p>
+					<br>
 
 					<section id="coaching"></section>
 					<div
@@ -128,15 +298,15 @@
 							</li>
 							<li>
 								<p>
-									Create and train with your own group of 6 players 
+									Create and train with your own group of 6 players
 								</p>
 							</li>
 							<li>
 								<p>
-									To ensure the best possible training experience for you:  
+									To ensure the best possible training experience for you:
 								</p>
 								<p>
-									- Ratio of 6 players to at least 1 coach and 1 court at all times 
+									- Ratio of 6 players to at least 1 coach and 1 court at all times
 								</p>
 								<p>
 									- Tell us what you want to focus on and we will tailor your sessions for you!
@@ -150,24 +320,55 @@
 									Coaching Crew:
 								</p>
 								<p>
-									- Javier Bosma - Olympic silver medallist Athens 2004, FIVB beach volleyball instructor, former 
+									- Javier Bosma - Olympic silver medallist Athens 2004, FIVB beach volleyball
+									instructor, former
 									head coach of Spanish junior national teams.
 								</p>
 								<p>
-									- Eszter Nagy - FIVB qualified beach volleyball coach with many years of international playing and 
+									- Eszter Nagy - FIVB qualified beach volleyball coach with many years of
+									international playing and
 									coaching experience.
 								</p>
 								<p>
 									- More coaches to be confirmed!
 								</p>
+
 							</li>
 						</ul>
+
+						<!-- sample with url -->
+						<!-- <div class="gallery">
+							<a target="_blank" href="img_forest.jpg">
+								<img src="../images/kalamata.jpg" alt="Forest" width="600" height="400">
+							</a>
+							<div class="desc">Coach Coachopoulos</div>
+						</div> -->
+
+						<!-- UNCOMMENT FROM HERE-->
+						<!-- <div class="container">
+							<div class="row">
+								<div class="gallery">
+									<img src="../images/kalamata.jpg" alt="Forest" width="600" height="400">
+									<div class="desc">Coach Coachopoulos</div>
+								</div>
+
+								<div class="gallery">
+									<img src="../images/kalamata.jpg" alt="Forest" width="600" height="400">
+									<div class="desc">Coach Coachopoulos</div>
+								</div>
+
+								<div class="gallery">
+									<img src="../images/kalamata.jpg" alt="Forest" width="600" height="400">
+									<div class="desc">Coach Coachopoulos</div>
+								</div>
+							</div>
+						</div> -->
+						<!-- TO HERE-->
 
 					</div>
 					<br>
 
 
-					
 					<section id="location"></section>
 					<div
 						style="background-color:#bda6a626;padding-left: 15px;padding-right: 15px;padding-top: 15px;padding-bottom: 15px;">
@@ -178,26 +379,39 @@
 						<ul>
 							<li>
 								<p>
-									<a href="https://www.google.com/maps/place/38%C2%B022'34.4%22N+0%C2%B024'36.9%22W/@38.3757722,-0.4101135,17z/data=!4m4!3m3!8m2!3d38.376218!4d-0.410253" target="_blank" style="color:#0018ee; font-weight:bold">Playa de San Juan</a> 
-									is situated just 20 minutes from Alicante airport and 10 minutes from the centre of Alicante by car - or slightly longer by bus or tramway.
+									<a href="https://www.google.com/maps/place/38%C2%B022'34.4%22N+0%C2%B024'36.9%22W/@38.3757722,-0.4101135,17z/data=!4m4!3m3!8m2!3d38.376218!4d-0.410253"
+										target="_blank" style="color:#0018ee; font-weight:bold">Playa de San
+										Juan</a>
+									is situated just 20 minutes from Alicante airport and 10 minutes from the centre
+									of
+									Alicante by car - or slightly longer by bus or tramway.
 								</p>
 							</li>
 							<li>
 								<p>
-									The courts are situated near the famous multi-coloured wooden cabins on the seafront. They have 
+									The courts are situated near the famous multi-coloured wooden cabins on the
+									seafront. They have
 									medium-depth sand, which is ideal for training in the early part of the season.
 								</p>
 							</li>
 							<li>
 								<p>
-									There are plenty of nearby restaurants, bars and clubs and plenty of sights to see such as the lighthouse 
-									landmark and local parks. There is also a beach gym and lots of sports facilities available for use.
+									There are plenty of nearby restaurants, bars and clubs and plenty of sights to
+									see
+									such as the lighthouse
+									landmark and local parks. There is also a beach gym and lots of sports
+									facilities
+									available for use.
 								</p>
 							</li>
 							<li>
 								<p>
-									Alicante is renowned for the famous St Barbara Castle, situated on the hills of the town. You can also 
-									visit the famous “Mushroom street” and the local harbour, not to mention trying out the amazing flavours
+									Alicante is renowned for the famous St Barbara Castle, situated on the hills of
+									the
+									town. You can also
+									visit the famous “Mushroom street” and the local harbour, not to mention trying
+									out
+									the amazing flavours
 									of the delicious local cuisine.
 								</p>
 							</li>
@@ -218,15 +432,21 @@
 									Accommodation
 								</p>
 								<p>
-									- We have left you the option to choose your own, as we believe it will offer you better value 
+									- We have left you the option to choose your own, as we believe it will offer
+									you
+									better value
 									and allow you to find your ideal place within your budget.
 								</p>
 								<p>
-									- If you would like a recommendation, we can suggest <a href="https://www.concorde.es" target="_blank" style="color:#0018ee; font-weight:bold">Concorde Apartments</a>. 
+									- If you would like a recommendation, we can suggest <a
+										href="https://www.concorde.es" target="_blank"
+										style="color:#0018ee; font-weight:bold">Concorde Apartments</a>.
 								</p>
 								<p>
-									- Check your favourite website for booking accommodation - they all offer plenty of options at really 
-									good value during the camp period. 
+									- Check your favourite website for booking accommodation - they all offer plenty
+									of
+									options at really
+									good value during the camp period.
 								</p>
 							</li>
 							<li>
@@ -234,28 +454,36 @@
 									Food
 								</p>
 								<p>
-									- The nearest bar/restaurant to the courts is called Niza. It is right on the beach making it ideal 
-									for enjoying either a quick coffee or a full meal before or after your training sessions.
+									- The nearest bar/restaurant to the courts is called Niza. It is right on the
+									beach
+									making it ideal
+									for enjoying either a quick coffee or a full meal before or after your training
+									sessions.
 								</p>
 								<p>
-									- There are also plenty of good restaurants serving delicious local cuisine in the nearby streets, all 
+									- There are also plenty of good restaurants serving delicious local cuisine in
+									the
+									nearby streets, all
 									between a 5 and 15-minute walk away from the courts.
 								</p>
-								
+
 					</div>
 					<br>
 
 					<section id="flexitrainingpackages"></section>
-					<div style="background-color:#bda6a626;padding-left: 15px;padding-right: 15px;padding-top: 15px;padding-bottom: 15px;">
+					<div
+						style="background-color:#bda6a626;padding-left: 15px;padding-right: 15px;padding-top: 15px;padding-bottom: 15px;">
 						<p style="font-weight:bold;">
-							PRICE & REGISTRATION 
+							PRICE & REGISTRATION
 						</p>
 
 						<ul>
 							<li>
 								<p>
-									Register as a group of 6. Each player will need to sign up online and indicate on their registration form 
-									which group they are a part of. 
+									Register as a group of 6. Each player will need to sign up online and indicate
+									on
+									their registration form
+									which group they are a part of.
 								</p>
 							</li>
 
@@ -271,7 +499,7 @@
 										style="color:#0018ee">Club Membership</a>
 								</p>
 							</li>
-							
+
 							<li>
 								<p>
 									Price: £399 per person
@@ -286,15 +514,16 @@
 								<p>
 									- Free SideOut goodies
 								</p>
-							</li> 
+							</li>
 							<li>
 								<p>
-									Price does not include flights, transport, accomodation or meals. 
+									Price does not include flights, transport, accomodation or meals.
 								</p>
-							</li> 
+							</li>
 						</ul>
 
-						<a href="https://registration.sideout.co.uk/" class="btn gradient-bg">Registration Opens Soon!
+						<a href="https://registration.sideout.co.uk/" class="btn gradient-bg">Registration Opens
+							Soon!
 						</a>
 
 					</div>
@@ -308,14 +537,14 @@
 
 	<br>
 
-	
+
 	</div>
 
 	<footer class="site-footer">
 		<div id="footer-widget" class="footer-widgets"></div>
 		<div id="footer-bar" class="footer-bar"></div>
 	</footer>
-	<script type="text/javascript" src="../../js/footer_10.js"></script>
+	<script type="text/javascript" src="../../js/footer_11.js"></script>
 	<script type="text/javascript" src="../js/jquery.js"></script>
 	<script type="text/javascript" src="../js/jquery.collapsible.min.js"></script>
 	<script type="text/javascript" src="../js/swiper.min.js"></script>
@@ -326,6 +555,7 @@
 	<script type="text/javascript" src="../js/custom.js"></script>
 	<script type="text/javascript">
 		renderFooter("../");
+		new jBox('Image');
 	</script>
 </body>
 

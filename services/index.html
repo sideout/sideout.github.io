@@ -29,8 +29,6 @@
     <script type='text/javascript' src='js/tools.js'></script>
     <script type='text/javascript' src='js/mainMenu_2_3.js'></script>
     <style>
-		
-
         .main-btn a {
             display: inline-block;
             padding: 2px 5px;
@@ -41,7 +39,73 @@
             text-decoration: navajowhite;
             /* background: #262222; */
         }
+
+        .photo-container {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .photo-container a {
+        color: #fff;
+    }
+
+
+    .bottom-left {
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+    }
+
+    /* Top left text */
+    .top-left {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+    }
+
+    /* Top right text */
+    .top-right {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+    }
+
+    /* Bottom right text */
+    .bottom-right {
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+    }
+
+    @media (max-width: 800px) {
+
+        /* CSS that should be displayed if width is equal to or less than 800px goes here */
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 33px;
+        }
+    }
+
+    /* Centered text */
+
+    @media not (max-width: 800px) {
+
+        /* CSS that should be displayed if width is equal to or less than 800px goes here */
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 50px;
+        }
+    }
 	</style>
+
+
 </head>
 
 <body>
@@ -109,13 +173,68 @@
 		</div>
 	</div>
 
-    <br>    <footer class="site-footer">
+    <!-- 
+        option to add text in all corners,
+    <div class="bottom-left">Bottom Left</div>
+    <div class="top-left">Top Left</div>
+    <div class="top-right">Top Right</div>
+    <div class="bottom-right">Click to learn more</div>
+    -->
+
+    <!-- FROM -->
+    <!-- <div class="short-content-wrap" style="background-color: #ffffff;">
+        <div class="container">
+            
+            <div class="photo-container">
+                
+                <a href="event-management.html"><img src="images/foot-bg.png" alt="Snow"
+                        style="width:100%;filter: brightness(50%)">
+                <div class="centered">Event Management</div>
+            </a>
+                
+            </div>
+            <p>hello some text here to explain what is this about</p>
+        </div>
+    </div>
+    <div class="short-content-wrap" style="background-color: #ffffff;">
+        <div class="container">
+            
+            <div class="photo-container">
+                <a href="coach-education.html"><img src="images/foot-bg.png" alt="Snow"
+                        style="width:100%;filter: brightness(50%)">
+                        <div class="centered">Coach Education</div>
+                    </a>
+                
+            </div>
+            <p>hello some text here to explain what is this about</p>
+        </div>
+    </div>
+    <div class="short-content-wrap" style="background-color: #ffffff;">
+        <div class="container">
+            
+            <div class="photo-container">
+               
+                <a href="coaching.html"><img src="images/foot-bg.png" alt="Snow"
+                        style="width:100%;filter: brightness(50%)">
+                <div class="bottom-left"> </div>
+                
+                <div class="centered">Coaching </div>
+            </a>
+               
+            </div>
+            <p>hello some text here to explain what is this about</p>
+        </div>
+    </div> -->
+    <!-- TO HERE -->
+
+    <br>    
+    <footer class="site-footer">
         <div id="footer-widget" class="footer-widgets"></div>
         <div id="footer-bar" class="footer-bar"></div>
     </footer>
 
     
-    <script type='text/javascript' src='../js/footer_10.js'></script>
+    <script type='text/javascript' src='../js/footer_11.js'></script>
     <script type='text/javascript' src='js/jquery.js'></script>
     <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
     <script type='text/javascript' src='js/swiper.min.js'></script>
