@@ -25,7 +25,6 @@
 	<link rel="stylesheet" href="css/swiper.min.css">
 	<link rel="stylesheet" href="style.css">
 	<script type='text/javascript' src='js/mainMenu_0_16.js'></script>
-	<script src="https://static.sekandocdn.net/static/feednami/feednami-client-v1.1.js"></script>
 </head>
 
 <body class="single-page about-page">
@@ -34,40 +33,64 @@
         <div id="mainMenu" class="nav-bar"></div>
 	</header>
 	<script type="text/javascript">
-		renderMenu("index", "");
+		renderMenu("", "");
 	</script>
 
-	<div style="background: url(images/banner/belo-spike.png) no-repeat center;" class="page-header">
+	
+<div class="featured-cause">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<h1>Announcements</h1>
+					<div class="section-heading">
+						<h2 class="entry-title">Announcements</h2>
+					</div>
+					<!-- <h1>Announcements</h1> -->
 				</div>
 			</div>
 		</div>
 	</div>
-	<br>
-
-	
-	<!-- <script type='text/javascript' src='https://sidoutuk.tumblr.com/js'></script> -->
-	<script>
-		const url = 'https://sidoutuk.tumblr.com/rss.xml'
-		const textarea = document.getElementById('rickys-blog-textarea')
-		feednami.load(url)
-		  .then(feed => {
-			textarea.value = ''
-			console.log(feed)
-			for(let entry of feed.entries){
-			  textarea.value += `${entry.title}\n${entry.link}\n\n`
-			}
-		  })
-	  </script>
 	
 	<br>
 
+	
+	<div class="short-content-wrap" style="background-color: #ffffff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    
+				
+                    <p>No recent announcements</p>
+					<!-- <hr>
+                    <h3>30.09.2021</h3>
+					<h4>Summer is officially... but SideOut never stops!</h4>
+                    <p>
+                        We have an action-packed winter schedule,
+                        including <a href="play/all-you-can-play.html" style="color:#0018ee;font-weight:bold">AYCP beach
+                            volleyball</a>,
+                        <a href="training-leyton.html#flexitrainingpackages"
+                            style="color:#0018ee;font-weight:bold">Flexi Training opportunities</a>,
+                        new <a href="juniors/indoor.html" style="color:#0018ee;font-weight:bold">indoor volleyball
+                            sessions for juniors</a>
+                        and plenty more to be announced soon!
+                    </p> -->
+
+					<!-- second Announcements -->
+					<!-- <hr>
+                    <h3>30.09.2021</h3>
+					<h4>Summer is officially... but SideOut never stops!</h4>
+                    <p>desc</p> -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+	
+	<br>
 
 
-	<div class="help-us" style="padding: 0px 0 13px;">
+
+	<!-- <div class="help-us" style="padding: 0px 0 13px;">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 d-flex flex-wrap align-items-center">
@@ -85,14 +108,14 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<br>
 
 	<footer class="site-footer">
 		<div id="footer-widget" class="footer-widgets"></div>
 		<div id="footer-bar" class="footer-bar"></div>
 	</footer>
-	<script type='text/javascript' src='../js/footer_10.js'></script>
+	<script type='text/javascript' src='../js/footer_11.js'></script>
 	<script type='text/javascript' src='js/jquery.js'></script>
 	<script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
 	<script type='text/javascript' src='js/swiper.min.js'></script>

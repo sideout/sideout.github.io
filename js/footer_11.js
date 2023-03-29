@@ -1,7 +1,18 @@
 function columnDDescriptionAndSocial(level) {
+
+  var fullpath = window.location;
+  let urlString1 = fullpath + "";
+
+  var rootLevel = "";
+if(urlString1.includes("/beach-volleyball/") || urlString1.includes("/volleyball/") || urlString1.includes("/services/")) {
+  console.log("Section: BV");
+  rootLevel = "../"
+}
+
+
   return '<div class="col-12 col-md-6 col-lg-3">\
   <div class="foot-about">\
-    <h2><a class="foot-logo" href="#"><img src="' + level + 'images/footer250.png" alt=""></a></h2>\
+    <h2><a class="foot-logo" href="#"><img src="' +rootLevel+ level + 'images/red-white-logo-250-150.png" alt=""></a></h2>\
     <p>Established in 2011, SideOut is the UK\'s largest, most innovative, dynamic and member-focused beach volleyball club. We are based in Leyton, East London and in Worthing, West Sussex.</p>\
     <ul class="d-flex flex-wrap align-items-center">\
      \
@@ -27,6 +38,10 @@ if(urlString1.includes("/beach-volleyball/") || urlString1.includes("/volleyball
   return '<div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">\
     <h2>About Us</h2>\
     <ul>\
+    <li><a href="'+rootLevel+level+'index.html">Home</a></li>\
+    <li><a href="'+rootLevel+level+'beach-volleyball/index.html">Beach Volleyball</a></li>\
+    <li><a href="'+rootLevel+level+'volleyball/index.html">Volleyball</a></li>\
+    <li><a href="'+rootLevel+level+'services/index.html">Services</a></li>\
       <li><a href="'+rootLevel+level+'meet-the-team.html">Meet the team</a></li>\
       <li><a href="'+rootLevel+level+'club-history.html">Club History</a></li>\
       <li><a href="'+rootLevel+level+'privacy-policy.html">Privacy Policy</a></li>\

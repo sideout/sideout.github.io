@@ -25,6 +25,66 @@
     <script type='text/javascript' src='../js/tools.js'></script>
     <script type='text/javascript' src='../js/mainMenu_0_16.js'></script>
     <script type='text/javascript' src='../js/calendar_data_107.js'></script>
+    <style>
+        /* pinterest style*/
+		* {
+			box-sizing: border-box;
+		}
+
+		gallerybody {
+			margin: 0;
+			font-family: Arial;
+		}
+
+		.header {
+			text-align: center;
+			padding: 32px;
+		}
+
+		.row {
+			display: -ms-flexbox;
+			/* IE10 */
+			display: flex;
+			-ms-flex-wrap: wrap;
+			/* IE10 */
+			flex-wrap: wrap;
+			padding: 0 4px;
+		}
+
+		/* Create four equal columns that sits next to each other */
+		.column {
+			-ms-flex: 25%;
+			/* IE10 */
+			flex: 25%;
+			max-width: 25%;
+			padding: 0 4px;
+		}
+
+		.column img {
+			margin-top: 8px;
+			vertical-align: middle;
+			width: 100%;
+		}
+
+		/* Responsive layout - makes a two column-layout instead of four columns */
+		@media screen and (max-width: 800px) {
+			.column {
+				-ms-flex: 50%;
+				flex: 50%;
+				max-width: 50%;
+			}
+		}
+
+		/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+		@media screen and (max-width: 600px) {
+			.column {
+				-ms-flex: 100%;
+				flex: 100%;
+				max-width: 100%;
+			}
+		}
+		/* pinterest style end*/
+    </style>
 </head>
 
 <body class="single-page about-page">
@@ -50,6 +110,78 @@
     <br />
     <br />
     <div class="highlighted-cause">
+
+
+        <!-- if you choose this one then line 56-58-59 should change to 50% -->
+        <!-- UNCOMMENT FROM HERE - with text - without viewer -->
+        <!-- <div class="container">
+            <div class="gallerybody">
+                <div class="row">
+                    <div class="column">
+                        <h2 class="entry-title"><span style="font-weight:bold">Represent your country!</span></h2>
+                        <p margin-top: 80px;>VolleyFirst and SideOut are excited to announce that the <span style="font-weight:bold;">All
+                            Nations Beach Volleyball </span>tournament is returning to Leyton Beach with a bang this
+                        year!</p>
+                    </div>
+    
+                    <div class="column">
+                        
+                            <img src="../images/AYCP.png" alt="Preview Photo 1" style="width:28%">
+                       
+                        
+                            <img src="../images/AYCP.png" style="width:28%">
+                        
+                       
+                            <img src="../images/kalamata.jpg" style="width:36%">
+                        
+                       
+                   
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br> -->
+        <!-- TO HERE - with text - without viewer -->
+
+        <!-- 
+            if you choose this one then line 56-58-59 should change to 25%, 
+            also icons should have small ration like 300x300,
+            it does not have to be YxY,
+            it can be 300x289 or whatever, but close to width 300 otherwise the page will take time to load
+          -->
+        <!-- UNCOMMENT FROM HERE - without text column - without viewer -->
+        <div class="container">
+            <div class="gallerybody">
+                
+                <div class="row"> 
+                    <div class="column">
+					
+                        <img src="../images/kalamata.jpg" style="width:100%">
+                        <img src="../images/footer.png" style="width:100%">
+                        <img src="../images/indoor.jpg" style="width:100%">
+                    </div>
+                    <div class="column">
+                        
+                        <img src="../images/AYCP.png" style="width:100%">
+                        <img src="../images/training.png" style="width:100%">
+                        <img src="../images/kalamata.jpg" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="../images/kalamata.jpg" style="width:100%">
+                        <img src="../images/kalamata.jpg" style="width:100%">
+                        <img src="../images/754x390_(Spain).png" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="../images/kalamata.jpg" style="width:100%">
+                        <img src="../images/footer10onblack.png" style="width:100%">
+                        <img src="../images/junior indoor - 754x390.jpg" style="width:100%">
+                    </div>
+            </div>
+        </div>
+         <!-- TO HERE - without text column - without viewer -->
+
+
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-7 order-2 order-lg-2">
@@ -286,7 +418,7 @@
         <div id="footer-bar" class="footer-bar"></div>
     </footer>
     <script type='text/javascript' src='../js/calendar_tournaments_functions_3.js'></script>
-    <script type='text/javascript' src='../../js/footer_10.js'></script>
+    <script type='text/javascript' src='../../js/footer_11.js'></script>
     <script type='text/javascript' src='../js/jquery.js'></script>
     <script type='text/javascript' src='../js/jquery.collapsible.min.js'></script>
     <script type='text/javascript' src='../js/swiper.min.js'></script>
