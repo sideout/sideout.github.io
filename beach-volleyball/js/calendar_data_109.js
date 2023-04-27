@@ -295,8 +295,6 @@ var april_events_leyton = [
 	{ date: new Date("4/27/2023"), name: "Adult Training", type: "Training", type1: "", info: "", url: "training-leyton.html" },
 	{ date: new Date("4/28/2023"), name: "Junior Open Play", type: "Juniors", type1: "Play", info: "17:30-18:30", url: "juniors/junior-open-play.html" },
 	{ date: new Date("4/28/2023"), name: "Open Play", type: "Play", type1: "", info: "17:30-22:00", url: "play/open-play.html" },
-	{ date: new Date("4/29/2023"), name: "SideOut Mixed Series", type: "Tournament", type1: "", info: "CANCELLED", url: "tournaments/mixed-series.html", status: "cancelled" },
-	{ date: new Date("4/29/2023"), name: "SideOut Junior Series", type: "Juniors", type1: "Tournament", info: "CANCELLED", url: "juniors/junior-series.html", status: "cancelled" },
 	{ date: new Date("4/29/2023"), name: "AYCP", type: "Play", type1: "", info: "10:00-17:00", url: "play/all-you-can-play.html" },
 	{ date: new Date("4/30/2023"), name: "Junior AYCP", type: "Juniors", type1: "Play", info: "10:00-12:00", url: "juniors/junior-all-you-can-play.html" },
 	{ date: new Date("4/30/2023"), name: "AYCP", type: "Play", type1: "", info: "10:00-17:00", url: "play/all-you-can-play.html" }
