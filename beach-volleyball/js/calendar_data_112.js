@@ -323,7 +323,7 @@ var may_events_leyton = [
 	{ date: new Date("5/11/2023"), name: "Adult Training", type: "Training", type1: "", info: "", url: "training-leyton.html" },
 	{ date: new Date("5/12/2023"), name: "Junior Open Play", type: "Juniors", type1: "Play", info: " 17:30-18:30", url: "juniors/junior-open-play.html" },
 	{ date: new Date("5/12/2023"), name: "Open Play", type: "Play", type1: "", info: " 17:30-22:00", url: "play/open-play.html" },
-	{ date: new Date("5/13/2023"), name: "SideOut Summer Social", type: "Tournament", type1: "Play", info: "", url: "tournaments/summer-social.html" },
+	{ date: new Date("5/13/2023"), name: "SideOut Summer Social", type: "Tournament", type1: "Play", info: "", url: "play/summer-social.html" },
 	{ date: new Date("5/14/2023"), name: "Junior AYCP ", type: "Juniors", type1: "Play", info: " 10:00-12:00", url: "juniors/junior-all-you-can-play.html" },
 	{ date: new Date("5/14/2023"), name: "AYCP", type: "Play", type1: "", info: " 10:00-17:00", url: "play/all-you-can-play.html" },
 	{ date: new Date("5/15/2023"), name: "Juniors training", type: "Juniors", type1: "Training", info: "", url: "juniors/leyton-beach.html" },
@@ -372,7 +372,7 @@ var june_events_leyton = [
 	{ date: new Date("6/8/2023"), name: "Adult Training", type: "Training", type1: "", info: "", url: "training-leyton.html" },
 	{ date: new Date("6/9/2023"), name: "Junior Open Play", type: "Juniors", type1: "Play", info: " 17:30-18:30", url: "juniors/junior-open-play.html" },
 	{ date: new Date("6/9/2023"), name: "Open Play", type: "Play", type1: "", info: " 17:30-22:00", url: "play/open-play.html" },
-	{ date: new Date("6/10/2023"), name: "SideOut Summer Social", type: "Tournament", type1: "Play", info: "", url: "tournaments/summer-social.html" },
+	{ date: new Date("6/10/2023"), name: "SideOut Summer Social", type: "Tournament", type1: "Play", info: "", url: "play/summer-social.html" },
 	{ date: new Date("6/11/2023"), name: "Junior AYCP ", type: "Juniors", type1: "Play", info: " 10:00-12:00", url: "juniors/junior-all-you-can-play.html" },
 	{ date: new Date("6/11/2023"), name: "AYCP", type: "Play", type1: "", info: " 10:00-17:00", url: "play/all-you-can-play.html" },
 	{ date: new Date("6/12/2023"), name: "Juniors training", type: "Juniors", type1: "Training", info: "", url: "juniors/leyton-beach.html" },
@@ -408,7 +408,7 @@ var june_events_leyton = [
 ];
 
 var july_events_leyton = [
-	{ date: new Date("7/1/2023"), name: "SideOut Summer Social", type: "Tournament", type1: "Play", info: "", url: "tournaments/summer-social.html" },
+	{ date: new Date("7/1/2023"), name: "SideOut Summer Social", type: "Tournament", type1: "Play", info: "", url: "play/summer-social.html" },
 	{ date: new Date("7/2/2023"), name: "Junior AYCP ", type: "Juniors", type1: "Play", info: " 10:00-12:00", url: "juniors/junior-all-you-can-play.html" },
 	{ date: new Date("7/2/2023"), name: "AYCP", type: "Play", type1: "", info: " 10:00-17:00", url: "play/all-you-can-play.html" },
 	{ date: new Date("7/3/2023"), name: "Juniors training", type: "Juniors", type1: "Training", info: "", url: "juniors/leyton-beach.html" },
@@ -469,7 +469,7 @@ var august_events_leyton = [
 	{ date: new Date("8/3/2023"), name: "Available for Flexi Training", type: "Training", type1: "", info: "", url: "training-leyton.html#flexitrainingpackages" },
 	{ date: new Date("8/4/2023"), name: "Junior Open Play", type: "Juniors", type1: "Play", info: " 17:30-18:30", url: "juniors/junior-open-play.html" },
 	{ date: new Date("8/4/2023"), name: "Open Play", type: "Play", type1: "", info: " 17:30-22:00", url: "play/open-play.html" },
-	{ date: new Date("8/5/2023"), name: "SideOut Summer Social", type: "Tournament", type1: "Play", info: "", url: "tournaments/summer-social.html" },
+	{ date: new Date("8/5/2023"), name: "SideOut Summer Social", type: "Tournament", type1: "Play", info: "", url: "play/summer-social.html" },
 	{ date: new Date("8/6/2023"), name: "Junior AYCP ", type: "Juniors", type1: "Play", info: " 10:00-12:00", url: "juniors/junior-all-you-can-play.html" },
 	{ date: new Date("8/6/2023"), name: "AYCP", type: "Play", type1: "", info: " 10:00-17:00", url: "play/all-you-can-play.html" },
 	{ date: new Date("8/7/2023"), name: "Juniors training", type: "Juniors", type1: "Training", info: "", url: "juniors/leyton-beach.html" },
@@ -526,7 +526,7 @@ var august_events_leyton = [
 var september_events_leyton = [
 	{ date: new Date("9/1/2023"), name: "Junior Open Play", type: "Juniors", type1: "Play", info: " 17:30-18:30", url: "juniors/junior-open-play.html" },
 	{ date: new Date("9/1/2023"), name: "Open Play", type: "Play", type1: "", info: " 17:30-22:00", url: "play/open-play.html" },
-	{ date: new Date("9/2/2023"), name: "SideOut Summer Social", type: "Tournament", type1: "Play", info: "", url: "tournaments/summer-social.html" },
+	{ date: new Date("9/2/2023"), name: "SideOut Summer Social", type: "Tournament", type1: "Play", info: "", url: "play/summer-social.html" },
 	{ date: new Date("9/3/2023"), name: "Junior AYCP ", type: "Juniors", type1: "Play", info: " 10:00-12:00", url: "juniors/junior-all-you-can-play.html" },
 	{ date: new Date("9/3/2023"), name: "AYCP", type: "Play", type1: "", info: " 10:00-17:00", url: "play/all-you-can-play.html" },
 
