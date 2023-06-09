@@ -683,7 +683,7 @@ var june_events_worthing = [
 	{ date: new Date("6/14/2023"), name: "Open Play", type: "Play", type1: "", info: "18:00-22:00", url: "play/open-play.html" },
 	{ date: new Date("6/15/2023"), name: "Adult Training", type: "Training", type1: "", info: "", url: "training-worthing.html" },
 	{ date: new Date("6/16/2023"), name: "Available for booking", type: "Play", type1: "", info: "", url: "book-a-court-worthing.html" },
-	{ date: new Date("6/17/2023"), name: "SideOut Junior Series", type: "Juniors", type1: "Tournament", info: "U18", url: "juniors/junior-series.html" },
+	{ date: new Date("6/17/2023"), name: "SideOut Skills Clinic", type: TYPE_CAMPS_AND_CLINICS, type1: "", info: "10:00-18:00", url: "camps-and-clinics/skills-clinics.html" },
 	{ date: new Date("6/18/2023"), name: "AYCP", type: "Play", type1: "", info: "09:00-17:00", url: "play/all-you-can-play.html" },
 	{ date: new Date("6/19/2023"), name: "Juniors training", type: "Juniors", type1: "Training", info: "", url: "juniors/worthing-beach.html" },
 	{ date: new Date("6/19/2023"), name: "Beginners training", type: "Training", type1: "", info: "", url: "training-worthing.html#beginners" },
