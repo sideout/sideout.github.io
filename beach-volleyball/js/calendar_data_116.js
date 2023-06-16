@@ -386,6 +386,7 @@ var june_events_leyton = [
 	{ date: new Date("6/16/2023"), name: "Junior Open Play", type: "Juniors", type1: "Play", info: " 17:30-18:30", url: "juniors/junior-open-play.html" },
 	{ date: new Date("6/16/2023"), name: "Open Play", type: "Play", type1: "", info: " 17:30-22:00", url: "play/open-play.html" },
 	{ date: new Date("6/17/2023"), name: "SideOut Junior Series", type: "Juniors", type1: "Tournament", info: " UKBT Junior Grand Prix - U15 & U17", url: "juniors/junior-series.html" },
+	{ date: new Date("6/17/2023"), name: "AYCP", type: "Play", type1: "", info: " 10:00-17:00", url: "play/all-you-can-play.html" },
 	{ date: new Date("6/18/2023"), name: "Junior AYCP ", type: "Juniors", type1: "Play", info: " 10:00-12:00", url: "juniors/junior-all-you-can-play.html" },
 	{ date: new Date("6/18/2023"), name: "AYCP", type: "Play", type1: "", info: " 10:00-17:00", url: "play/all-you-can-play.html" },
 	{ date: new Date("6/19/2023"), name: "Juniors training", type: "Juniors", type1: "Training", info: "", url: "juniors/leyton-beach.html" },
