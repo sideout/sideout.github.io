@@ -169,6 +169,6 @@ if (page == 'mixnmatch.html') {
 
 if (page == 'summer-social.html') {
 	var eventsDiv = document.getElementById('upcomingTournaments');
-	eventsDiv.innerHTML = renderFutureTournamentsBothVenues("SideOut Summer Social", "NOTHING_FOR_NOW", true);
+	eventsDiv.innerHTML = renderFutureTournamentsBothVenues("Weroad SideOut Summer Socials", "NOTHING_FOR_NOW", true);
 }
 
